@@ -1,0 +1,16 @@
+{
+    "rewrites": [
+      {
+        "source": "/pages/(.*)",
+        "destination": "/erro"
+      },
+      {
+        "source": " (.*)",
+        "destination": "/erro"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/erro"
+      }
+    ]
+} 
