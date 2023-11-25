@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oieee">
+
+    <link rel="stylesheet" href="style/head.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/section-1.css">
+    <link rel="stylesheet" href="style/section-2.css">
+    <link rel="stylesheet" href="style/section-3.css">
+    <link rel="stylesheet" href="style/hamburguer.css">
+    <link rel="stylesheet" href="style/particles.css">
+
+
+    <link rel="shortcut icon" type="imagex/png" href="assets/images/icons-social/foguinho.svg">
+
+    <title>Lucas</title>
+</head>
+
+<!-- https://ipinfo.io/json -->
+
+<!-- <script src="./assets/scripts/particles.min.js"></script>
+<script src="scripts/particles.js"></script>
+<div id="particles-js"></div> -->
+
+
+
+<body>
+    <header>
+        <nav id="nav" class="navbar">
+
+            <!-- <button id="btn-mobile"><img id="btn-mobile" src="assets/images/hamburguer.svg" alt="" srcset=""></button> -->
+            <img id="btn-mobile" src="assets/images/hamburguer.svg" alt="" srcset="">
+
+            <ul id="menu">
+                <li>
+                    <a href="https://github.com/LukeTheNeko">
+                        GitHub
+                        <img src="assets/images/icons-social/github.svg" alt="" srcset="">
+                    </a>
+                </li>
+                <li>
+                    <a href="./projetos.html">
+                        Projetos
+                        <img src="assets/images/icons-tools/icon-dev.svg" alt="" srcset="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/Luketheneko">
+                        Twitter
+                        <img src="assets/images/icons-social/twitter.svg" alt="" srcset="">
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="./nsfw/index.html">
+                        NSFW
+                        <img src="assets/images/icons-social/foguinho.svg" alt="" srcset="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section-1">
+        <div class="titulo gd-pink-1">
+            <h1>
+                Lucas
+            </h1>
+            <h2>
+                Desenvolvedor <span class="bold-word">NodeJS</span> | <span class="bold-word">Java</span>
+            </h2>
+        </div>
+        <img src="https://avatars.githubusercontent.com/u/122848089?v=4" alt="" srcset="">
+    </section>
+
+    <section class="section-2">
+        <div class="sobre-mim">
+            <h2>
+                Sobre mim
+            </h2>
+            <p>
+                Adoro jogar <span class="bold-word">Minecraft</span> com amigos jogando no Discord que me fez a querer aprender a programar em
+                <span class="bold-word">Java</span> e <span class="bold-word">Javascript</span>
+                para criação de <span class="bold-word">Plugins</span> e <span class="bold-word">BOTS</span> para o discord.
+            </p>
+        </div>
+        <img src="./assets/images/APIS.png" alt="" srcset="">
+    </section>
+    <section class="section-2">
+        <div class="sobre-mim">
+            <h2>
+                Tecnologias
+            </h2>
+            <p>
+                Me sinto confortável programando em <span
+                    class="bold-word">JavaScript</span>, <span class="bold-word">TypeScript</span> e
+                <span class="bold-word">Java</span>. Uso <span class="bold-word">NodeJS</span> para criação de BOTS para o Disocrd.
+                <br>
+                Utilizo Intelij na criação de <span
+                class="bold-word">Plugins</span> em <span class="bold-word">Java</span> para o Minecraft.
+                <br>
+                Tenho leve conhecimento em outras linguagems de programação como em <span class="bold-word">Python, C++ , C# e Kotlin </span>
+            </p>
+        </div>
+        <img src="./assets/images/FERRAMENTAS.png" alt="" srcset="">
+    </section>
+
+    <script>
+        const btnMobile = document.getElementById('btn-mobile');
+        function toggleMenu() {
+            const nav = document.getElementById('nav');
+            nav.classList.toggle('active');
+        }
+        if (btnMobile) {
+            btnMobile.addEventListener('click', toggleMenu);
+        }
+
+    </script>
+
+</body>
+
+</html>
