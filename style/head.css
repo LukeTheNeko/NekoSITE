@@ -75,7 +75,7 @@ body {
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: #FD93C9;
+    background-color: #6200ff;
     border-radius: 5px;
     border: 0px solid #000;
   }
