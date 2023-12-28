@@ -1,7 +1,7 @@
 {
     "eu": {
         "nome": "Lucas Borges",
-        "idade": 22
+        "idade": 23
     },
     "tecnologias": ["HTML", "CSS", "JavaScript", "Node.js", "Java"]
 }
