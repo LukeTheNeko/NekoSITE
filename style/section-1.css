@@ -110,33 +110,3 @@
         font-size: 1em;
     }
   }
-  
-  footer h3 {
-    color: #FD93C9;
-}
-  
-  footer { 
-    background-image: url(../assets/background-7.png);
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-}
-
-.conteudo-rodape {
-    display: flex;
-    justify-content: space-around;
-}
-
-.contato,
-.redes-sociais {
-    flex: 1;
-}
-
-.redes-sociais img {
-    width: 30px;
-    margin: 5px;
-}
-
-.direitos-autorais {
-    margin-top: 20px;
-}
