@@ -1,0 +1,53 @@
+.main {
+    min-height: 10vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b1b1b;
+}
+
+.block {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+.socias {
+    display: flex;
+    align-items: center;
+}
+
+.socias a {
+    opacity: 0.8;
+    transition: all 0.5s;
+    margin: 0 6px;
+}
+
+.socias a:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.info, .termsContainer {
+    text-align: center;
+}
+
+.termsContainer {
+    padding-right: 1rem;
+}
+
+.termsContainer a {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: #808080;
+}
+
+.infoRede {
+    text-align: center;
+}
+
+.infoRede .copyright {
+    color: #808080; /* Adicione esta linha para definir a cor cinza */
+}

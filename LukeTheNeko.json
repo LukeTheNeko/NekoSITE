@@ -1,0 +1,8 @@
+{
+    "eu": {
+        "nome": "Lucas Borges",
+        "idade": 23,
+        "pais": "Brazil"
+    },
+    "tecnologias": ["HTML", "CSS", "SCSS", "JavaScript", "TypeScript", "Node.js", "Java", "Koltin", "Nextjs"]
+}

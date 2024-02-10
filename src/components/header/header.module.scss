@@ -1,0 +1,122 @@
+.headerContainer {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 3rem;
+    justify-content: space-between;
+
+    h1 {
+        padding: 0.2rem 0.4rem;
+        opacity: 0.8;
+        transition: all 0.5s;
+        font-weight: bold;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.02);
+            border-radius: 0.3rem;
+            opacity: 1;
+        }
+    }
+
+    .about {
+        display: flex;
+        align-items: center;
+
+        a {
+            font-size: 1.2rem;
+            opacity: 0.8;
+            transition: all 0.5s;
+
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.02);
+                opacity: 1;
+            }
+
+            & + a {
+                margin-left: 2rem;
+            }
+        }
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+        width: 1200px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20px;
+        padding: 0px 10px;
+    }
+    
+    .navbar ul li:first-child{
+        padding-left: 8px;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: #EEE;
+        font-size: 15pt;
+    }
+
+    .navbar ul li a img {
+        margin-left: 4px;
+        height: 20px;     
+        width: 20px;       
+        position: relative;
+        top: 2px;          
+    }
+
+    /* EFEITO HOVER */
+    .navbar ul li a {
+        padding-bottom: 5px;
+        background:
+            linear-gradient(
+            to right,
+            rgba(100, 200, 200, 0),
+            rgba(100, 200, 200, 0)
+            ),
+            linear-gradient(
+            to right,
+            #FD93C9,
+            #9431e6
+        );
+        background-size: 100% 3px, 0 3px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 400ms;
+    }
+
+    .navbar ul li a:hover {
+        background-size: 0 3px, 100% 3px;
+    }
+
+    .iconHeader {
+        height: 14px;
+        width: 14px;
+      }
+
+    /* --- MEDIA QUERY --- */
+    @media (max-width: 1200px) {
+        .navbar ul {
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .navbar {
+            margin: 0px auto;
+            width: 90%;
+        }
+    }
+}

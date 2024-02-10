@@ -1,0 +1,121 @@
+.background-container {
+    background-image: url('/background-7.png');
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.page {
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socias a {
+    opacity: 0.8;
+    transition: all 0.5s;
+    margin: 0 6px;
+}
+
+.socias a:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.main {
+    padding-top: 3rem;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main404 {
+    padding-top: 3rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px; //
+}
+
+.me {
+    //height: px;
+    width: 50%;
+    cursor: default;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.me:hover {
+    transform: scale(1.08);
+}
+
+.redesocias a {
+    opacity: 0.8;
+    transition: all 0.5s;
+    margin: 1rem 0;ais
+    & + a {
+        margin: 0 6px;
+    }
+    &:hover {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+}
+
+.body h1 {
+    padding-bottom: 150;
+    cursor: default;
+    font-size: 65px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.body h2 {
+    padding-bottom: 20px;
+    cursor: default;
+    color: var(--white);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.machine {
+    min-width: 10vh;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.mainproejct {
+    padding-top: 3rem;
+    min-height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos {
+    height: 70px;
+    cursor: default;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.projetos:hover {
+    transform: scale(1.08);
+}
