@@ -1,7 +1,7 @@
 import styles from '../styles/style_home.module.scss'
 import { Header } from '../components/header';
 import { About } from '../components/about'
-import { Tecnologias } from '../components/tecnologias'
+import { Technology } from '../components/technology'
 import { ParticleEffect } from "../components/particles";
 import { Cookies } from '@/components/cookies';
 import Head from 'next/head';
@@ -9,7 +9,7 @@ import { Footer } from '@/components/footer';
 import "aos/dist/aos.css"
 import Aos from 'aos';
 import { useEffect } from 'react';
-import { BsDiscord, BsGithub, BsInstagram, BsTiktok, BsTwitter, BsYoutube } from 'react-icons/bs';
+import { BsGithub, BsInstagram, BsTiktok, BsTwitter, BsYoutube } from 'react-icons/bs';
 
 export default function Home() {
 
@@ -23,7 +23,7 @@ export default function Home() {
         <>
             <Head>
                 <title>LukeTheNeko</title>
-                <link rel="icon" href="./LukeNekoUwU/LukeTheNekoAudi.jpg" />
+                <link className={`${styles.icon}`} rel="icon" href="./LukeNekoUwU/LukeTheNekoAudi.jpg" />
             </Head>
             <div className={`${styles.home} ${styles['background-container']}`} id='start'>
                 <Header />
@@ -41,25 +41,25 @@ export default function Home() {
                         </h2>
                         <div className={styles.socias}>
                             <a href="https://github.com/LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                                <BsGithub color='#fff' size={30} />
+                                <BsGithub color='#fff' size={35} />
                             </a>
                             <a href="https://www.instagram.com/LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                                <BsInstagram color='#fff' size={30} />
+                                <BsInstagram color='#fff' size={35} />
                             </a>
                             <a href="https://www.twitter.com/LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                                <BsTwitter color='#fff' size={30} />
+                                <BsTwitter color='#fff' size={35} />
                             </a>
                             <a href="https://www.tiktok.com/@LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                                <BsTiktok color='#fff' size={30} />
+                                <BsTiktok color='#fff' size={35} />
                             </a>
                             <a href="https://www.youtube.com/@LukeTheNekoo" target="_blank" rel="noopener noreferrer">
-                                <BsYoutube color='#fff' size={30} />
+                                <BsYoutube color='#fff' size={35} />
                             </a>
                         </div>
                     </div>
                 </main>
                 <About />
-                <Tecnologias />
+                <Technology />
                 <Cookies />
                 <Footer />
             </div>

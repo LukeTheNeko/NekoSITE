@@ -13,7 +13,10 @@
     flex-direction: column;
 }
 
-.boxMain img, .boxMain h1, .boxMain p, .boxMain {
+.boxMain img,
+.boxMain h1,
+.boxMain p,
+.boxMain {
     cursor: grab;
     background-color: var(--dark-400);
 }

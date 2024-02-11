@@ -6,7 +6,7 @@ interface boxProps {
     subMessage: string;
 }
 
-export function BoxTecnologia({path, name, subMessage, ...rest}: boxProps) {
+export function BoxTecnologia({ path, name, subMessage, ...rest }: boxProps) {
     return (
         <div className={styles.boxMain} {...rest}>
             <h1>{name}</h1>

@@ -1,26 +1,29 @@
 .main {
-    min-height: 50vh;
+    min-height: 100vh;
     min-width: 100vh;
     padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     border-bottom: 2px solid var(--dark-300);
-  }
+}
 
-.me h1, .formacao h1 {
+.me h1,
+.formacao h1 {
     padding: 1rem 0;
     font-size: 40px;
 }
 
-.me p, .formacao p {
+.me p,
+.formacao p {
     font-size: 22px;
     padding: 1rem;
     border-radius: 4px;
     border-left: 4px solid #fff;
 }
 
-.logos, .formacao img {
+.logos,
+.formacao img {
     background-color: var(--white);
 }
 
@@ -36,6 +39,7 @@
 .formacao img {
     width: 120px;
     transition: all 0.5s;
+
     &:hover {
         opacity: 1.1;
         transform: scale(1.05);
@@ -44,12 +48,14 @@
 
 @media (max-width: 1200px) {
 
-    .me h1, .formacao h1 {
+    .me h1,
+    .formacao h1 {
         padding: 1rem 0;
         font-size: 27px;
     }
-    
-    .me p, .formacao p {
+
+    .me p,
+    .formacao p {
         font-size: 18px;
         padding: 1rem;
         border-radius: 3px;
@@ -59,6 +65,7 @@
     .formacao img {
         width: 90px;
         transition: all 0.5s;
+
         &:hover {
             opacity: 1.1;
             transform: scale(1.05);
@@ -69,12 +76,14 @@
 
 @media (max-width: 909px) {
 
-    .me h1, .formacao h1 {
+    .me h1,
+    .formacao h1 {
         padding: 1rem 0;
         font-size: 25px;
     }
-    
-    .me p, .formacao p {
+
+    .me p,
+    .formacao p {
         font-size: 15px;
         padding: 1rem;
         border-radius: 3px;
@@ -84,6 +93,7 @@
     .formacao img {
         width: 90px;
         transition: all 0.5s;
+
         &:hover {
             opacity: 1.1;
             transform: scale(1.05);
@@ -95,25 +105,29 @@
 .descricao img {
     width: 120px;
     transition: all 0.5s;
+
     &:hover {
         opacity: 1.1;
         transform: scale(1.05);
     }
 }
 
-.me h1, .descricao h1 {
+.me h1,
+.descricao h1 {
     padding: 1rem 0;
     font-size: 40px;
 }
 
-.me p, .descricao p {
+.me p,
+.descricao p {
     font-size: 22px;
     padding: 1rem;
     border-radius: 4px;
     border-left: 4px solid #fff;
 }
 
-.logos, .descricao img {
+.logos,
+.descricao img {
     background-color: var(--white);
 }
 
@@ -122,20 +136,17 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
-  
-    .me {
-      flex-basis: 90%;
-      margin-bottom: 20px;
-    }
-  
-    h1 {
-      font-size: 30px;
-    }
-  
-    p {
-      font-size: 15px;
-    }
-  }
-  
 
-  
+    .me {
+        flex-basis: 90%;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}

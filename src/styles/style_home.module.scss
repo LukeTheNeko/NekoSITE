@@ -19,7 +19,7 @@
 }
 
 .socias a {
-    opacity: 0.8;
+    opacity: 0.5;
     transition: all 0.5s;
     margin: 0 6px;
 }
@@ -52,28 +52,16 @@
 }
 
 .me {
-    //height: px;
     width: 50%;
     cursor: default;
     text-align: center;
     transition: transform 0.3s ease;
+    position: relative;
+    z-index: 2;
 }
 
 .me:hover {
     transform: scale(1.08);
-}
-
-.redesocias a {
-    opacity: 0.8;
-    transition: all 0.5s;
-    margin: 1rem 0;ais
-    & + a {
-        margin: 0 6px;
-    }
-    &:hover {
-        opacity: 1;
-        transform: scale(1.05);
-    }
 }
 
 .body h1 {
@@ -109,13 +97,13 @@
     align-items: center;
 }
 
-.projetos {
+.project {
     height: 70px;
     cursor: default;
     text-align: center;
     transition: transform 0.3s ease;
 }
 
-.projetos:hover {
+.project:hover {
     transform: scale(1.08);
 }

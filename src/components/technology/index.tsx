@@ -3,7 +3,7 @@ import { BoxTecnologia } from '../ui/box';
 import { motion } from 'framer-motion';
 import { useEffect, useLayoutEffect, useState, useRef } from 'react';
 
-export function Tecnologias() {
+export function Technology() {
   interface Dados {
     path: string;
     name: string;

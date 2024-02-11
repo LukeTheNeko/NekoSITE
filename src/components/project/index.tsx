@@ -1,12 +1,8 @@
 import styles from './styles.module.scss';
 
-export function Projetos() {
+export function Project () {
   return (
-    <main className={` ${styles.background}`} data-aos="fade-right" id='projetos'>
-      <div className={styles.row}>
-        <div className={styles.descricao}>
-        </div>
-      </div>
+    <main className={`${styles.main} ${styles.background}`} data-aos="fade-right" id='project '>
       <div className={styles.row}>
         <div className={styles['item-grid']}>
           <img src="/banners/GladFarmBot.png" alt="Logo" />
@@ -101,7 +97,7 @@ export function Projetos() {
           </a>
         </div>
 
-              {/* Mais projetos aqui */}
+              {/* More */}
 
       </div>
     </main>

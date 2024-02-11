@@ -8,19 +8,19 @@ export function Footer() {
             <div className={styles.block}>
                 <div className={styles.socias}>
                     <a href="https://github.com/LukeTheNeko/" target="_blank" rel="noopener noreferrer">
-                        <BsGithub color='#808080' size={24} />
+                        <BsGithub color='#808080' size={28} />
                     </a>
                     <a href="https://www.instagram.com/LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                        <BsInstagram color='#808080' size={24} />
+                        <BsInstagram color='#808080' size={28} />
                     </a>
                     <a href="https://www.twitter.com/LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                        <BsTwitter color='#808080' size={24} />
+                        <BsTwitter color='#808080' size={28} />
                     </a>
                     <a href="https://www.tiktok.com/@LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                        <BsTiktok color='#808080' size={24} />
+                        <BsTiktok color='#808080' size={28} />
                     </a>
                     <a href="https://www.youtube.com/@LukeTheNekoo" target="_blank" rel="noopener noreferrer">
-                        <BsYoutube color='#808080' size={24} />
+                        <BsYoutube color='#808080' size={28} />
                     </a>
                 </div>
             </div>

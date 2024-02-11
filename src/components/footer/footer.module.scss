@@ -19,7 +19,7 @@
 }
 
 .socias a {
-    opacity: 0.8;
+    opacity: 0.7;
     transition: all 0.5s;
     margin: 0 6px;
 }
@@ -29,8 +29,10 @@
     transform: scale(1.1);
 }
 
-.info, .termsContainer {
+.info,
+.termsContainer {
     text-align: center;
+    font-weight: bold;
 }
 
 .termsContainer {
@@ -46,8 +48,9 @@
 
 .infoRede {
     text-align: center;
+    font-weight: bold;
 }
 
 .infoRede .copyright {
-    color: #808080; /* Adicione esta linha para definir a cor cinza */
+    color: #808080;
 }

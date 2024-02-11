@@ -121,38 +121,6 @@
 .item-grid ul li img {
   width: 28px;
 }
-
-@media (max-width: 1250px) {
-  .item-grid {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 850px) {
-  .item-grid {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 600px) {
-  .item-grid h2 {
-    font-size: 2em;
-  }
-}
-
-@media (max-width: 400px) {
-  .item-grid {
-    max-width: 100%;
-  }
-
-  .item-grid h2 {
-    margin-bottom: 20px;
-  }
-
-  .item-grid h3 {
-    font-size: 2em;
-  }
-}
   
 .row {
   display: flex;

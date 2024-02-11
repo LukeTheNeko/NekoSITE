@@ -37,74 +37,77 @@
                 opacity: 1;
             }
 
-            & + a {
+            &+a {
                 margin-left: 2rem;
             }
         }
     }
 
+    .navbar {
+        display: flex;
+        font-size: 1.0rem;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: bold;
+    }
+
     .navbar ul {
         display: flex;
         flex-direction: row;
-        width: 1200px;
         justify-content: center;
         align-items: center;
+        margin: 0;
+        padding: 0;
     }
 
     .navbar li {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 20px;
-        padding: 0px 10px;
-    }
-    
-    .navbar ul li:first-child{
-        padding-left: 8px;
+        height: 3em;
+        padding: 0.7em;
     }
 
     .navbar a {
         text-decoration: none;
         color: #EEE;
-        font-size: 15pt;
+        font-size: 1em;
+        display: flex;
+        align-items: center;
     }
 
-    .navbar ul li a img {
-        margin-left: 4px;
-        height: 20px;     
-        width: 20px;       
-        position: relative;
-        top: 2px;          
+    .navbar a img {
+        margin-right: 0.5em;
+        height: 1.5em;
+        width: 1.5em;
     }
 
     /* EFEITO HOVER */
     .navbar ul li a {
-        padding-bottom: 5px;
+
+        padding-bottom: 0.3em;
         background:
-            linear-gradient(
-            to right,
-            rgba(100, 200, 200, 0),
-            rgba(100, 200, 200, 0)
-            ),
-            linear-gradient(
-            to right,
-            #FD93C9,
-            #9431e6
-        );
-        background-size: 100% 3px, 0 3px;
+            linear-gradient(to right,
+                rgba(100, 200, 200, 0),
+                rgba(100, 200, 200, 0)),
+            linear-gradient(to right,
+                #FD93C9,
+                #9431e6);
+        background-size: 100% 0.1875em, 0 0.1875em;
         background-position: 100% 100%, 0 100%;
         background-repeat: no-repeat;
         transition: background-size 400ms;
     }
 
     .navbar ul li a:hover {
-        background-size: 0 3px, 100% 3px;
+        background-size: 0 0.1875em, 100% 0.1875em;
     }
 
     .iconHeader {
         height: 14px;
         width: 14px;
-      }
+    }
 
     /* --- MEDIA QUERY --- */
     @media (max-width: 1200px) {
