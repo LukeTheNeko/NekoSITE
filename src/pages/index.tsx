@@ -31,7 +31,7 @@ export default function Home() {
                 <main className={styles.main}>
                     <div className={styles.body}>
                         <div className={styles.image}>
-                            <img className={styles.me} src='./logos/luketheneko.png' alt="Minha foto" />
+                            <img className={styles.me} src='./logos/luketheneko.png' alt="Logo" />
                         </div>
                         <h1>
                             Lucas
@@ -41,19 +41,19 @@ export default function Home() {
                         </h2>
                         <div className={styles.socias}>
                             <a href="https://github.com/LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                                <BsGithub color='#fff' size={35} />
+                                <BsGithub color='#fff' size={40} />
                             </a>
                             <a href="https://www.instagram.com/LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                                <BsInstagram color='#fff' size={35} />
+                                <BsInstagram color='#fff' size={40} />
                             </a>
                             <a href="https://www.twitter.com/LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                                <BsTwitter color='#fff' size={35} />
+                                <BsTwitter color='#fff' size={40} />
                             </a>
                             <a href="https://www.tiktok.com/@LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                                <BsTiktok color='#fff' size={35} />
+                                <BsTiktok color='#fff' size={40} />
                             </a>
                             <a href="https://www.youtube.com/@LukeTheNekoo" target="_blank" rel="noopener noreferrer">
-                                <BsYoutube color='#fff' size={35} />
+                                <BsYoutube color='#fff' size={40} />
                             </a>
                         </div>
                     </div>

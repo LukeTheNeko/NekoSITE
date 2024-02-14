@@ -5,12 +5,12 @@ export function About() {
     <main className={styles.main} data-aos="fade-right" id='about'>
       <div className={styles.row}>
         <div className={styles.me}>
-          <h1>Sobre Min</h1>
+          <h1>Sobre Mim</h1>
           <p>
             Desde os 13 anos, estudo programação, iniciando com o Minecraft e desenvolvendo interesse em Java. Atualmente, me dedico a projetos criativos, utilizando diversas linguagens para transformar ideias inovadoras em realidade. Encaro a programação como uma expressão da minha criatividade.
           </p>
         </div>
-        <div className={styles.formacao}>
+        <div className={styles.descricao}>
           <h1>Tecnologias</h1>
           <p>
             Sou um entusiasta da programação e me sinto em casa trabalhando com diversas linguagens.

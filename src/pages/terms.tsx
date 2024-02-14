@@ -17,7 +17,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>LukeTheNeko</title>
+            <title>Terms and Conditions</title>
                 <link rel="icon" href="./LukeNekoUwU/LukeTheNekoAudi.jpg" />
             </Head>
             <div className={`${styles.home} ${styles['background-container']}`} id='start'>

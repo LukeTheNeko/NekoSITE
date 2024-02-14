@@ -16,7 +16,24 @@
 }
 
 button {
+    pointer-events: auto;
     cursor: pointer;
+    background-color: #ffffff55;
+    border: none;
+    border-radius: 40px;
+    margin-top: 20px;
+    font-size: 14pt;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 70px;
+    top: 30px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #d265fd;
+    box-shadow: 0 0 2em #d054d2;
+    transform: scale(1.05);
 }
 
 body,
@@ -63,7 +80,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #000;
+    background: #1b1b1b;
 }
 
 body::-webkit-scrollbar-thumb {

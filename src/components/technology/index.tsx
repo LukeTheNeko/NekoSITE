@@ -1,7 +1,7 @@
 import styles from './styles.module.scss';
 import { BoxTecnologia } from '../ui/box';
 import { motion } from 'framer-motion';
-import { useEffect, useLayoutEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 
 export function Technology() {
   interface Dados {
@@ -10,7 +10,7 @@ export function Technology() {
     subMessages: string;
   }
 
-  const [boxes, setBoxes] = useState<Dados[]>([
+  const [ boxes ] = useState<Dados[]>([
     {
       path: "./icons/html.svg",
       name: "Html",

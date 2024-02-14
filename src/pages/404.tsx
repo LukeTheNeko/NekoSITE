@@ -18,7 +18,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>erro 404</title>
+                <title>Erro 404</title>
                 <link rel="icon" href="./LukeNekoUwU/LukeTheNekoAudi.jpg" />
             </Head>
             <div className={`${styles.home} ${styles['background-container']}`} id='start'>
