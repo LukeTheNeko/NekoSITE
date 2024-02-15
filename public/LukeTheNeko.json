@@ -1,0 +1,9 @@
+{
+    "me": {
+        "name": "Lucas Borges",
+        "idade": 23,
+        "pais": "Brazil",
+        "city": "São Paulo"
+    },
+    "tecnology": ["HTML", "CSS", "SASS", "JavaScript", "TypeScript", "Node.js", "Java", "Koltin", "React", "Nextjs"]
+}

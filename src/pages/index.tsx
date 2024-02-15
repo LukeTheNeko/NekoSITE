@@ -31,7 +31,7 @@ export default function Home() {
                 <main className={styles.main}>
                     <div className={styles.body}>
                         <div className={styles.image}>
-                            <img className={styles.me} src='./logos/luketheneko.png' alt="Logo" />
+                            <img className={styles.me} src='./imgs/luketheneko.png' alt="Logo" />
                         </div>
                         <h1>
                             Lucas

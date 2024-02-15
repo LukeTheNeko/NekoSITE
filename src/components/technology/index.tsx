@@ -22,8 +22,8 @@ export function Technology() {
       subMessages: ""
     },
     {
-      path: "./icons/scss.svg",
-      name: "Scss",
+      path: "./icons/sass.svg",
+      name: "Sass",
       subMessages: ""
     },
     {

@@ -41,7 +41,7 @@ export function About() {
           </p>
         </div>
         <div className={styles.descricao}>
-          <img src="./Ferramentas2.png" alt="ferramentas" />
+          <img src="./imgs/ferramentas.png" alt="ferramentas" />
         </div>
       </div>
     </main>

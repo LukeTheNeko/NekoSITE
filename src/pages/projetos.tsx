@@ -25,7 +25,7 @@ export default function Home() {
                 <Header />
                 <main className={styles.mainproject}>
                     <div className={styles.image}>
-                        <img className={styles.project} src='/logos/projetos.png' alt='Logo' />
+                        <img className={styles.project} src='/imgs/projetos.png' alt='Logo' />
                     </div>
                 </main>
                 <Cookies />
