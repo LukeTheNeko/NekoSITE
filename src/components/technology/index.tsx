@@ -47,21 +47,6 @@ export function Technology() {
       subMessages: ""
     },
     {
-      path: "./icons/c.svg",
-      name: "C",
-      subMessages: ""
-    },
-    {
-      path: "./icons/c-sharp.svg",
-      name: "C#",
-      subMessages: ""
-    },
-    {
-      path: "./icons/cpp.svg",
-      name: "C++",
-      subMessages: ""
-    },
-    {
       path: "./icons/nextjs.svg",
       name: "Nextjs",
       subMessages: ""
@@ -79,11 +64,6 @@ export function Technology() {
     {
       path: "./icons/firebase.svg",
       name: "Firebase",
-      subMessages: ""
-    },
-    {
-      path: "./icons/mongodb.svg",
-      name: "Mongodb",
       subMessages: ""
     },
   ]);

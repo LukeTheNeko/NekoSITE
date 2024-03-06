@@ -20,19 +20,18 @@ button {
     cursor: pointer;
     background-color: #ffffff55;
     border: none;
-    border-radius: 40px;
+    border-radius: 25px;
     margin-top: 20px;
     font-size: 14pt;
     color: #fff;
-    font-weight: 700;
     padding: 10px 70px;
     top: 30px;
     transition: 0.3s;
 }
 
 button:hover {
-    background-color: #d265fd;
-    box-shadow: 0 0 2em #d054d2;
+    background-color: #ea00ff;
+    box-shadow: 0 0 1.5em #7b00ff;
     transform: scale(1.05);
 }
 
