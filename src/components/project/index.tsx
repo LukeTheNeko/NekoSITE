@@ -22,6 +22,23 @@ export function Project () {
         </div>
 
         <div className={styles['item-grid']}>
+          <img src="/banners/notzsite.png" alt="Logo" />
+          <h3 className={styles['gd-pink-1']}>Notz<br />Website</h3>
+          <p>Um site para um servidor de Minecraft</p>
+          <a target="_blank" href="https://redenotz.net">
+            <button className={styles.button}>Ver</button>
+            <ul>
+              <li>
+                <img src="/icons/ts.svg" alt="Icone Ts" />
+              </li>
+              <li>
+                <img src="/icons/react.svg" alt="Icone React" />
+              </li>
+            </ul>
+          </a>
+        </div>
+
+        <div className={styles['item-grid']}>
           <img src="/banners/NekoMaintenance.png" alt="Logo" />
           <h3 className={styles['gd-pink-1']}>Neko<br />Maintenance</h3>
           <p>Plugin para Minecraft em Kotlin que ativa e desativa o modo de manuntenção em seu servidor.</p>
