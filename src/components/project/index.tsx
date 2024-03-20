@@ -36,6 +36,23 @@ export function Project () {
         </div>
 
         <div className={styles['item-grid']}>
+          <img src="/banners/rikubot.png" alt="Logo" />
+          <h3 className={styles['gd-pink-1']}>Riku<br />BOT</h3>
+          <p>Um BOT para Discord usando API v14</p>
+          <a target="_blank" href="https://github.com/LukeTheNeko/RikuBOT">
+            <button className={styles.button}>Ver</button>
+            <ul>
+              <li>
+                <img src="/icons/ts.svg" alt="Icone Ts" />
+              </li>
+              <li>
+                <img src="/icons/node.svg" alt="Icone Node" />
+              </li>
+            </ul>
+          </a>
+        </div>
+
+        <div className={styles['item-grid']}>
           <img src="/banners/NekoClearLag.png" alt="Logo" />
           <h3 className={styles['gd-pink-1']}>Neko<br />Clear Lag</h3>
           <p>Plugin para Minecraft em Kotlin que remove items do chão evitando Lag.</p>
