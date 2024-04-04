@@ -24,6 +24,8 @@ export default function Home() {
             <Head>
                 <title>LukeTheNeko</title>
                 <link className={`${styles.icon}`} rel="icon" href="./LukeNekoUwU/LukeTheNekoAudi.jpg" />
+                <meta name="description" content="Olá, sou Lucas este é meu portifolio"></meta>
+                <meta http-equiv="X-UA-Compatible" content="ie=edge" />
             </Head>
             <div className={`${styles.home} ${styles['background-container']}`} id='start'>
                 <Header />

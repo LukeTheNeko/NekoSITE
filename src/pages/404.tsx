@@ -24,12 +24,12 @@ export default function Home() {
             <div className={`${styles.home} ${styles['background-container']}`} id='start'>
                 <ParticleEffect />
                 <main className={styles.main404}>
-                    <div className={styles.body}>
+                    <div className={` ${styles.body} `}>
                         <h1>
                             Erro 404 <br /> Página não encontrada
                         </h1>
                         <h2>
-                            Esta página não existe ou nao existe mais
+                            Esta página não existe ou não existe mais.
                         </h2>
 
                         <div className={styles.socias}>
