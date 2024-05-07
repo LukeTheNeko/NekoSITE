@@ -6,120 +6,86 @@
     display: flex;
     align-items: center;
     padding: 1.2rem 3rem;
-    justify-content: space-between;
+    justify-content: flex-end;
 
-    h1 {
-        padding: 0.2rem 0.4rem;
-        opacity: 0.8;
-        transition: all 0.5s;
-        font-weight: bold;
+    .me {
+        max-width: 15rem;
+        justify-content: flex-start;
+        margin-right: auto;
+        margin-left: 20px;
+        transition: transform 0.3s ease;
 
         &:hover {
-            cursor: pointer;
-            transform: scale(1.02);
-            border-radius: 0.3rem;
-            opacity: 1;
+            transform: scale(1.08);
         }
     }
+}
 
-    .about {
-        display: flex;
-        align-items: center;
+.navbar {
+    display: flex;
+    font-size: 1.0rem;
+    font-weight: bold;
 
-        a {
-            font-size: 1.2rem;
-            opacity: 0.8;
-            transition: all 0.5s;
-
-            &:hover {
-                cursor: pointer;
-                transform: scale(1.02);
-                opacity: 1;
-            }
-
-            &+a {
-                margin-left: 2rem;
-            }
-        }
-    }
-
-    .navbar {
-        display: flex;
-        font-size: 1.0rem;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        font-weight: bold;
-    }
-
-    .navbar ul {
+    ul {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
         margin: 0;
         padding: 0;
     }
 
-    .navbar li {
+    li {
         display: flex;
         align-items: center;
-        justify-content: center;
         height: 3em;
         padding: 0.7em;
-    }
 
-    .navbar a {
-        text-decoration: none;
-        color: #EEE;
-        font-size: 1em;
-        display: flex;
-        align-items: center;
-    }
+        a {
+            text-decoration: none;
+            color: #EEE;
+            font-size: 1em;
+            display: flex;
 
-    .navbar a img {
-        margin-right: 0.5em;
-        height: 1.5em;
-        width: 1.5em;
-    }
-
-    /* EFEITO HOVER */
-    .navbar ul li a {
-
-        padding-bottom: 0.3em;
-        background:
-            linear-gradient(to right,
-                rgba(100, 200, 200, 0),
-                rgba(100, 200, 200, 0)),
-            linear-gradient(to right,
-                #ea00ff,
-                #7b00ff);
-        background-size: 100% 0.1875em, 0 0.1875em;
-        background-position: 100% 100%, 0 100%;
-        background-repeat: no-repeat;
-        transition: background-size 400ms;
-    }
-
-    .navbar ul li a:hover {
-        background-size: 0 0.1875em, 100% 0.1875em;
-    }
-
-    .iconHeader {
-        height: 14px;
-        width: 14px;
-    }
-
-    /* --- MEDIA QUERY --- */
-    @media (max-width: 1200px) {
-        .navbar ul {
-            flex-wrap: wrap;
-            width: 100%;
-            justify-content: center;
+            img {
+                margin-right: 0.5em;
+                height: 1.5em;
+                width: 1.5em;
+            }
         }
 
-        .navbar {
-            margin: 0px auto;
-            width: 90%;
+        /* EFEITO HOVER */
+        a {
+            padding-bottom: 0.3em;
+            background:
+                linear-gradient(to right,
+                    rgba(100, 200, 200, 0),
+                    rgba(100, 200, 200, 0)),
+                linear-gradient(to right,
+                    #ea00ff,
+                    #7b00ff);
+            background-size: 100% 0.1875em, 0 0.1875em;
+            background-position: 100% 100%, 0 100%;
+            background-repeat: no-repeat;
+            transition: background-size 400ms, opacity 0.3s;
+            opacity: 0.75;
+
+            &:hover {
+                background-size: 0 0.1875em, 100% 0.1875em;
+                opacity: 1;
+            }
         }
+    }
+}
+
+/* --- MEDIA QUERY --- */
+@media (max-width: 1200px) {
+    .navbar ul {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navbar {
+        margin: 0 auto; /* Ajustando a margem */
+        width: 90%;
     }
 }

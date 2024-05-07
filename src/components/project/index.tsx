@@ -21,6 +21,24 @@ export function Project () {
           </a>
         </div>
 
+        {/*
+        <div className={styles['item-grid']}>
+          <img src="/banners/SteamHourBoost.png" alt="Logo" />
+          <h3 className={styles['gd-pink-1']}>Steam<br />HourBoost</h3>
+          <p>Um Bot para aumentar horas nos jogos da Steam.</p>
+          <a target="_blank" href="https://github.com/LukeTheNeko/SteamHourBoost">
+            <button className={styles.button}>Ver</button>
+            <ul>
+              <li>
+                <img src="/icons/ts.svg" alt="Icone Ts" />
+              </li>
+              <li>
+                <img src="/icons/node.svg" alt="Icone Node" />
+              </li>
+            </ul>
+          </a>
+        </div> */}
+
         <div className={styles['item-grid']}>
           <img src="/banners/notzsite.png" alt="Logo" />
           <h3 className={styles['gd-pink-1']}>Notz<br />Website</h3>
@@ -97,39 +115,6 @@ export function Project () {
           </a>
         </div>
 
-        <div className={styles['item-grid']}>
-          <img src="/banners/Infinitibot.png" alt="Logo" />
-          <h3 className={styles['gd-pink-1']}>Infiniti<br />BOT</h3>
-          <p>Um simples BOT para Discord usando API v14</p>
-          <a target="_blank" href="https://github.com/LukeTheNeko/InfinitiBOT">
-            <button className={styles.button}>Ver</button>
-            <ul>
-              <li>
-                <img src="/icons/js.svg" alt="Icone Js" />
-              </li>
-              <li>
-                <img src="/icons/node.svg" alt="Icone Node" />
-              </li>
-            </ul>
-          </a>
-        </div>
-
-        <div className={styles['item-grid']}>
-          <img src="/banners/CamryBOT.png" alt="Logo" />
-          <h3 className={styles['gd-pink-1']}>Camry<br />BOT</h3>
-          <p>Um simples BOT para Discord usando API v14</p>
-          <a target="_blank" href="https://github.com/LukeTheNeko/CamryBOT">
-            <button className={styles.button}>Ver</button>
-            <ul>
-              <li>
-                <img src="/icons/js.svg" alt="Icone Js" />
-              </li>
-              <li>
-                <img src="/icons/node.svg" alt="Icone Node" />
-              </li>
-            </ul>
-          </a>
-        </div>
 
               {/* More */}
 

@@ -8,7 +8,6 @@
 :root {
     --white: #fff;
     --dark-200: #161616;
-    --dark-300: #2b2b2b;
     --dark-400: #1d1d1d;
     --red-200: #210000;
     --blue: #0d00ff;
@@ -54,20 +53,12 @@ p {
     cursor: default;
 }
 
-img {
-    cursor: pointer;
-}
-
 h1,
 h2,
 h3 {
     font-weight: normal;
     color: var(--white);
     cursor: default;
-}
-
-body {
-    background: var(--dark-700)
 }
 
 :target {

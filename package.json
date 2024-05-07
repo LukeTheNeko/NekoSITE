@@ -1,6 +1,7 @@
 {
   "name": "nekosite",
-  "version": "2.0.5",
+  "version": "2.0.12",
+  "author": "LukeTheNeko",
   "private": true,
   "scripts": {
     "dev": "next dev",
