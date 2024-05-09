@@ -7,7 +7,7 @@ export function Project () {
         <div className={styles['item-grid']}>
           <img src="/banners/GladFarmBot.png" alt="Logo" />
           <h3 className={styles['gd-pink-1']}>BOT<br />GladMC</h3>
-          <p>BOT para farmar AFK no servidor de Minecraft GladMC com comandos usando Discord</p>
+          <p>BOT para farm AFK no servidor GladMC com comandos no Discord</p>
           <a target="_blank" href="https://github.com/LukeTheNeko/GladFarm">
             <button className={styles.button}>Ver</button>
             <ul>
@@ -21,7 +21,6 @@ export function Project () {
           </a>
         </div>
 
-        {/*
         <div className={styles['item-grid']}>
           <img src="/banners/SteamHourBoost.png" alt="Logo" />
           <h3 className={styles['gd-pink-1']}>Steam<br />HourBoost</h3>
@@ -37,12 +36,12 @@ export function Project () {
               </li>
             </ul>
           </a>
-        </div> */}
+        </div>
 
         <div className={styles['item-grid']}>
           <img src="/banners/notzsite.png" alt="Logo" />
           <h3 className={styles['gd-pink-1']}>Notz<br />Website</h3>
-          <p>Um site para um servidor de Minecraft</p>
+          <p>Um site simples para um servidor de Minecraft</p>
           <a target="_blank" href="https://redenotz.net">
             <button className={styles.button}>Ver</button>
             <ul>
@@ -59,7 +58,7 @@ export function Project () {
         <div className={styles['item-grid']}>
           <img src="/banners/NekoMaintenance.png" alt="Logo" />
           <h3 className={styles['gd-pink-1']}>Neko<br />Maintenance</h3>
-          <p>Plugin para Minecraft em Kotlin que ativa e desativa o modo de manuntenção em seu servidor.</p>
+          <p>Minecraft Plugin em Kotlin que ativa ou desativa o modo de manuntenção no servidor.</p>
           <a target="_blank" href="https://github.com/LukeTheNeko/NekoMaintenance">
             <button className={styles.button}>Ver</button>
             <ul>
@@ -71,14 +70,14 @@ export function Project () {
         </div>
 
         <div className={styles['item-grid']}>
-          <img src="/banners/rikubot.png" alt="Logo" />
-          <h3 className={styles['gd-pink-1']}>Riku<br />BOT</h3>
-          <p>Um BOT para Discord usando API v14</p>
-          <a target="_blank" href="https://github.com/LukeTheNeko/RikuBOT">
+          <img src="/banners/TweetRandomWord.png" alt="Logo" />
+          <h3 className={styles['gd-pink-1']}>Tweet<br />RandomWord</h3>
+          <p>Bot para Tweets de palavras aleatórias a cada 30 minutos.</p>
+          <a target="_blank" href="https://github.com/LukeTheNeko/TweetRandomWord">
             <button className={styles.button}>Ver</button>
             <ul>
-              <li>
-                <img src="/icons/ts.svg" alt="Icone Ts" />
+            <li>
+                <img src="/icons/js.svg" alt="Icone Js" />
               </li>
               <li>
                 <img src="/icons/node.svg" alt="Icone Node" />
@@ -88,9 +87,29 @@ export function Project () {
         </div>
 
         <div className={styles['item-grid']}>
+          <img src="/banners/rikubot.png" alt="Logo" />
+          <h3 className={styles['gd-pink-1']}>Kaze<br />BOT</h3>
+          <p>Discord Bot simples com banco de dados</p>
+          <a target="_blank" href="https://github.com/LukeTheNeko/KazeBOT">
+            <button className={styles.button}>Ver</button>
+            <ul>
+              <li>
+                <img src="/icons/ts.svg" alt="Icone Ts" />
+              </li>
+              <li>
+                <img src="/icons/node.svg" alt="Icone Node" />
+              </li>
+              <li>
+                <img src="/icons/mongodb.svg" alt="Icone MongoDb" />
+              </li>
+            </ul>
+          </a>
+        </div>
+
+        <div className={styles['item-grid']}>
           <img src="/banners/NekoClearLag.png" alt="Logo" />
           <h3 className={styles['gd-pink-1']}>Neko<br />Clear Lag</h3>
-          <p>Plugin para Minecraft em Kotlin que remove items do chão evitando Lag.</p>
+          <p>Minecraft Plugin para que remove items do chão evitando Lag.</p>
           <a target="_blank" href="https://github.com/LukeTheNeko/NekoClearLag">
             <button className={styles.button}>Ver</button>
             <ul>
@@ -104,7 +123,7 @@ export function Project () {
         <div className={styles['item-grid']}>
           <img src="/banners/Nekoutility.png" alt="Logo" />
           <h3 className={styles['gd-pink-1']}>Neko<br />Utility</h3>
-          <p>Um Plugin simples de Minecraft que adiciona comandos essenciais para ajudar no servidor.</p>
+          <p>Minecraft Plugin que adiciona comandos e funções essenciais.</p>
           <a target="_blank" href="https://github.com/LukeTheNeko/NekoUtility">
             <button className={styles.button}>Ver</button>
             <ul>
@@ -114,7 +133,6 @@ export function Project () {
             </ul>
           </a>
         </div>
-
 
               {/* More */}
 

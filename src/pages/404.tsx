@@ -29,7 +29,7 @@ export default function Home() {
                             Erro 404 <br /> Página não encontrada
                         </h1>
                         <h2>
-                            Esta página não existe ou não existe mais.
+                            Esta página não existe.
                         </h2>
 
                         <div className={styles.socias}>
