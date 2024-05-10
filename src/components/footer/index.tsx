@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsGithub, BsInstagram, BsTiktok, BsTwitter, BsYoutube } from 'react-icons/bs';
+import { BsDiscord, BsGithub, BsInstagram, BsTiktok, BsTwitter, BsYoutube } from 'react-icons/bs';
 import styles from './footer.module.scss';
 
 export function Footer() {
@@ -8,19 +8,22 @@ export function Footer() {
             <div className={styles.block}>
                 <div className={styles.socias}>
                     <a href="https://github.com/LukeTheNeko/" target="_blank" rel="noopener noreferrer">
-                        <BsGithub color='#808080' size={30} />
+                        <BsGithub color='#808080' size={25} />
                     </a>
-                    <a href="https://www.instagram.com/LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                        <BsInstagram color='#808080' size={30} />
+                    <a href="https://discord.com/users/265766165958230016" target="_blank" rel="noopener noreferrer">
+                        <BsDiscord color='#808080' size={25} />
                     </a>
                     <a href="https://www.twitter.com/LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                        <BsTwitter color='#808080' size={30} />
+                        <BsTwitter color='#808080' size={25} />
+                    </a>
+                    <a href="https://www.instagram.com/LukeTheNeko" target="_blank" rel="noopener noreferrer">
+                        <BsInstagram color='#808080' size={25} />
                     </a>
                     <a href="https://www.tiktok.com/@LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                        <BsTiktok color='#808080' size={30} />
+                        <BsTiktok color='#808080' size={25} />
                     </a>
                     <a href="https://www.youtube.com/@LukeTheNekoo" target="_blank" rel="noopener noreferrer">
-                        <BsYoutube color='#808080' size={30} />
+                        <BsYoutube color='#808080' size={25} />
                     </a>
                 </div>
             </div>

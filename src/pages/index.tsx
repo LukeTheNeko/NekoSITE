@@ -21,11 +21,10 @@ export default function Home() {
         <>
             <Head>
                 <title>LukeTheNeko</title>
-                <link className={`${styles.icon}`} rel="icon" href="./LukeNekoUwU/LukeTheNekoAudi.jpg" />
+                <link rel="icon" href="./LukeNekoUwU/LukeTheNekoAudi.jpg" />
                 <meta property="og:title" content="Lucas - Meu Portfólio" />
-                <meta name="description" content="Olá, sou Lucas este é meu portifolio"></meta>
+                <meta name="description" content="Olá, Eu sou o Lucas este é meu portifolio :3"></meta>
                 <meta name="keywords" content="portifolio, dev, developer, js, ts, react"></meta>
-                <meta property="og:image" content="./LukeNekoUwU/LukeTheNekoAudi.jpg" />
             </Head>
             <div className={`${styles.home} ${styles['background-container']}`} id='start'> 
             <Main2 />

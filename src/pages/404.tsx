@@ -26,14 +26,11 @@ export default function Home() {
                 <main className={styles.main404}>
                     <div className={` ${styles.body} `}>
                         <h1>
-                            Erro 404 <br /> Página não encontrada
+                            Erro 404 <br /> Página não foi encontrada
                         </h1>
-                        <h2>
-                            Esta página não existe.
-                        </h2>
 
                         <div className={styles.socias}>
-                            <a href="./" rel="noopener noreferrer"> <BsArrowLeft color='#fff' size={30} /> </a>
+                            <a href="./" rel="noopener noreferrer"> <BsArrowLeft color='#fff' size={40} /></a> 
                         </div>
                     </div>
                 </main>
