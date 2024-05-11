@@ -1,4 +1,4 @@
-import styles from './styles.module.scss';
+import styles from './terms.module.scss';
 
 export function Terms() {
   return (

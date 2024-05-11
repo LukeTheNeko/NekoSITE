@@ -1,4 +1,4 @@
-import styles from './styles.module.scss';
+import styles from './privacy.module.scss';
 
 export function Privacy() {
   return (

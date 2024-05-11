@@ -35,11 +35,6 @@ export function Header() {
               <img src="./icons/github.svg" className={style.iconHeader} alt="Github Icon" /> Github
             </a>
           </li>
-          <li>
-            <a href="https://luketheneko.xyz" target="_blank">
-              <img src="./icons/social.svg" className={style.iconHeader} alt="Social Icon" /> Social
-            </a>
-          </li>
         </ul>
       </nav>
     </div>

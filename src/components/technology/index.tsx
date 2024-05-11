@@ -12,6 +12,16 @@ export function Technology() {
 
   const [ boxes ] = useState<Dados[]>([
     {
+      path: "./icons/js.svg",
+      name: "JavaScript",
+      subMessages: ""
+    },
+    {
+      path: "./icons/ts.svg",
+      name: "TypeScript",
+      subMessages: ""
+    },
+    {
       path: "./icons/html.svg",
       name: "Html",
       subMessages: ""
@@ -24,16 +34,6 @@ export function Technology() {
     {
       path: "./icons/sass.svg",
       name: "Sass",
-      subMessages: ""
-    },
-    {
-      path: "./icons/js.svg",
-      name: "JavaScript",
-      subMessages: ""
-    },
-    {
-      path: "./icons/ts.svg",
-      name: "TypeScript",
       subMessages: ""
     },
     {
@@ -64,6 +64,11 @@ export function Technology() {
     {
       path: "./icons/firebase.svg",
       name: "Firebase",
+      subMessages: ""
+    },
+    {
+      path: "./icons/mongodb.svg",
+      name: "Mongodb",
       subMessages: ""
     },
   ]);
