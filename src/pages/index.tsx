@@ -20,11 +20,11 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>LukeTheNeko</title>
+                <title>Lucas - Meu Portfólio</title>
                 <link rel="icon" href="./LukeNekoUwU/LukeTheNekoAudi.jpg" />
-                <meta property="og:title" content="Lucas - Meu Portfólio" />
                 <meta name="description" content="Olá, Eu sou o Lucas este é meu portifolio :3"></meta>
                 <meta name="keywords" content="portifolio, dev, developer, js, ts, react"></meta>
+                <meta name="google-adsense-account" content="ca-pub-2763973119875552"></meta>
             </Head>
             <div className={`${styles.home} ${styles['background-container']}`} id='start'> 
             <Main2 />

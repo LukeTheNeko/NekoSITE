@@ -1,7 +1,7 @@
 import { BsGithub, BsInstagram, BsTiktok, BsTwitter, BsYoutube } from 'react-icons/bs';
 import { Header } from '../header';
 import { ParticleEffect } from '../particles';
-import styles from './styles.module.scss';
+import styles from './home.module.scss';
 
 export function Main2() {
     return (
@@ -20,7 +20,7 @@ export function Main2() {
                     </div>
                     <div className={styles.block2} data-aos="fade-left">
                         <div className={styles.imageContainer}>
-                            <img className={styles.me} src='./imgs/devimg.png' alt="devimg" />
+                            <img className={styles.me} src='./imgs/devpc.png' alt="dev no pc" />
                         </div>
                     </div>
                 </div>

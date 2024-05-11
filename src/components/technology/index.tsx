@@ -1,4 +1,4 @@
-import styles from './styles.module.scss';
+import styles from './technology.module.scss';
 import { BoxTecnologia } from '../ui/box';
 import { motion } from 'framer-motion';
 import { useEffect, useState, useRef } from 'react';

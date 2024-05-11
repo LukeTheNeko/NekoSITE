@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import styles from './styles.module.scss';
+import styles from './cookie.module.scss';
 
 export function Cookies() {
   const [displayBanner, setDisplayBanner] = useState<boolean>(true);
