@@ -19,7 +19,7 @@ export function Header() {
       </div>
 
       <nav className={`${style.navbar} ${isMenuOpen ? style.open : ''}`}>
-        <ul id="menu" className={style.about}>
+        <ul id="menu">
           <li>
             <a href="./">
               <img src="./icons/home.svg" className={style.iconHeader} alt="Home Icon" /> Home
@@ -37,6 +37,9 @@ export function Header() {
           </li>
         </ul>
       </nav>
+
+      <div className={`${style.content} ${isMenuOpen ? style.scrolled : ''}`}>
+      </div>
     </div>
   );
 }

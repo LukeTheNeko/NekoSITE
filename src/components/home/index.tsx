@@ -10,7 +10,7 @@ export function Main2() {
             <ParticleEffect />
             <main className={styles.main}>
                 <div className={styles.body}>
-                    <div className={styles.block1} data-aos="fade-right">
+                    <div className={styles.block1} data-aos="zoom-in-right">
                         <h1>
                             Lucas Borges
                         </h1>
@@ -20,27 +20,27 @@ export function Main2() {
 
                         <div className={styles.socias}>
                             <a href="https://github.com/LukeTheNeko/" target="_blank" rel="noopener noreferrer">
-                                <BsGithub color='#fff' size={30} />
+                                <BsGithub color='#fff' size={32} />
                             </a>
                             <a href="https://discord.com/users/265766165958230016" target="_blank" rel="noopener noreferrer">
-                                <BsDiscord color='#fff' size={30} />
+                                <BsDiscord color='#fff' size={32} />
                             </a>
                             <a href="https://www.twitter.com/LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                                <BsTwitter color='#fff' size={30} />
+                                <BsTwitter color='#fff' size={32} />
                             </a>
                             <a href="https://www.instagram.com/LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                                <BsInstagram color='#fff' size={30} />
+                                <BsInstagram color='#fff' size={32} />
                             </a>
                             <a href="https://www.tiktok.com/@LukeTheNeko" target="_blank" rel="noopener noreferrer">
-                                <BsTiktok color='#fff' size={30} />
+                                <BsTiktok color='#fff' size={32} />
                             </a>
                             <a href="https://www.youtube.com/@LukeTheNekoo" target="_blank" rel="noopener noreferrer">
-                                <BsYoutube color='#fff' size={30} />
+                                <BsYoutube color='#fff' size={32} />
                             </a>
                         </div>
                     </div>
 
-                    <div className={styles.block2} data-aos="fade-left">
+                    <div className={styles.block2} data-aos="zoom-in">
                         <div className={styles.imageContainer}>
                             <img className={styles.me} src='./imgs/devpc.png' alt="dev no pc" />
                         </div>

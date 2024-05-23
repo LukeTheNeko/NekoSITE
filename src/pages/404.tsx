@@ -19,6 +19,7 @@ export default function Home() {
         <>
             <Head>
                 <title>Erro 404</title>
+                <meta name="description" content="Página não foi encontrada :("></meta>
                 <link rel="icon" href="./LukeNekoUwU/LukeTheNekoAudi.jpg" />
             </Head>
             <div className={`${styles.home} ${styles['background-container']}`} id='start'>
@@ -26,11 +27,11 @@ export default function Home() {
                 <main className={styles.main404}>
                     <div className={` ${styles.body} `}>
                         <h1>
-                            Erro 404 <br /> Página não foi encontrada
+                            Erro 404 <br /> Página não encontrada
                         </h1>
 
                         <div className={styles.socias}>
-                            <a href="./" rel="noopener noreferrer"> <BsArrowLeft color='#fff' size={40} /></a> 
+                            <a href="./" rel="noopener noreferrer"> <BsArrowLeft color='#fff' size={50} /></a> 
                         </div>
                     </div>
                 </main>

@@ -19,12 +19,11 @@ export default function Home() {
         <>
             <Head>
                 <title>Meus Projetos</title>
-                <meta name="description" content="Meus Projetos públicos"></meta>
+                <meta name="description" content="Todos os meus Projetos públicos"></meta>
                 <link rel="icon" href="./LukeNekoUwU/LukeTheNekoAudi.jpg" />
             </Head>
             <div className={`${styles.home} ${styles['background-container']}`} id='start'>
                 <Header />
- 
                 <Cookies />
                 <Project />
                 <Footer />

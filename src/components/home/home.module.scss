@@ -20,34 +20,30 @@
         text-align: left;
 
         h1 {
-            cursor: default;
-            font-size: 5vw;
-            text-align: left;
+            font-size: 5.2vw;
             font-weight: bold;
             margin-top: 0;
         }
 
         h2 {
-            cursor: default;
-            font-size: 2.1vw;
+            font-size: 2.2vw;
             font-weight: bold;
-            text-align: left;
-            margin-bottom: 0;
         }
 
         .socias {
             display: flex;
         }
-        
+
         .socias a {
-            opacity: 0.65;
+            opacity: 0.75;
             transition: all 0.5s;
             margin: 6px 4px;
         }
-        
+
         .socias a:hover {
             opacity: 1;
             transform: scale(1.10);
+            filter: drop-shadow(0px 0px 3px #ffffff4a);
         }
 
     }
@@ -61,7 +57,7 @@
 
             img {
                 max-width: 100%;
-                max-height: 60vh;
+                max-height: 65vh;
                 margin-top: -10vh;
             }
         }
@@ -69,23 +65,29 @@
 }
 
 @media (max-width: 1200px) {
+
+    .main {
+        padding-top: 15vh;
+    }
+
     .me {
         display: none;
     }
 
     .body {
+        position: fixed;
 
         .block1 {
             width: 100%;
 
             h1 {
                 font-size: 10vw;
-                padding-top: 70%;
             }
 
             h2 {
-                font-size: 5vw;
+                font-size: 4vw;
             }
+
         }
 
         .block2 {
