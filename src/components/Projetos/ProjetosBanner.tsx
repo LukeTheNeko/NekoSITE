@@ -50,7 +50,7 @@ export default function ProjetosBanner({ image, alt, title, content, icons, href
 
                 <div className="flex justify-center items-center gap-4 p-4">
                     {icons.map((icon, index) => (
-                        <img key={index} width={25} height={25} src={icon} alt={`Icon ${index}`} />
+                        <Image key={index} width={25} height={25} src={icon} alt={`Icon ${index}`} />
                     ))}
                 </div>
             </div>
