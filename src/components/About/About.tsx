@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Icons from "../Icons/Icons";
 
 export default function About() {
@@ -6,7 +7,7 @@ export default function About() {
             <div data-aos="fade-right" className="sm:flex max-w-screen-xl p-5">
                 <div className="p-4 md:p-8 lg:p-16 xl:p-24">
                     <div className="hidden md:block max-w-96 image object-center text-center">
-                        <img src="/images/imgs/code.svg" alt="imagem" />
+                        <Image src="/images/imgs/code.svg" alt="imagem" />
                     </div>
                 </div>
                 <div data-aos="fade-right" data-aos-delay="300" className="sm:w-1/2 p-4">
@@ -30,7 +31,7 @@ export default function About() {
                     <div data-aos="fade-right" data-aos-delay="400" className="text-white flex justify-center text-center">
                         <h2 className="text-5xl font-bold">Tecnologias que utilizo</h2>
                     </div>
-                    <Icons /> {/* Inserindo o componente Icons aqui */}
+                    <Icons />
                 </div>
             </section>
         </div>

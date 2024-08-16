@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image';
 import { FormEvent, useState, useRef } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 import { FaPhone, FaUser } from 'react-icons/fa';
@@ -92,7 +93,7 @@ export default function Contact() {
         <div className="flex justify-center items-center p-8 bg-zinc-800">
             <div className="relative bg-gradient-to-br from-indigo-950 to-slate-950 flex flex-col md:flex-row justify-center items-center gap-8 md:gap-10 p-2 md:p-10 rounded-3xl w-full max-w-4xl">
                 <div data-aos="fade-right" className="hidden md:flex items-center justify-center h-36 w-48 md:h-36 md:w-72 flex-shrink-0">
-                    <img
+                    <Image
                         src="/images/icons/mail.svg"
                         alt="Ícone de email"
                         className="object-contain"
@@ -169,7 +170,7 @@ export default function Contact() {
                                     <span>Enviando...</span>
                                 ) : (
                                     <>
-                                        <img
+                                        <Image
                                             src="/images/icons/send.svg"
                                             alt="Ícone"
                                             className="w-5 h-5"

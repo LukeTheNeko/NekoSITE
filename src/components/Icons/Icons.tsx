@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const iconsData = [
@@ -21,7 +22,7 @@ const Icon = ({ src, alt, delay }: { src: string, alt: string, delay: number }) 
             className="group bg-white h-20 w-20 rounded-full flex justify-center items-center transition-transform duration-300 hover:scale-110 cursor-pointer"
         >
             <div className="h-10 w-10">
-                <img
+                <Image
                     src={src}
                     alt={alt}
                     className="filter grayscale transition-all duration-300 group-hover:filter-none"

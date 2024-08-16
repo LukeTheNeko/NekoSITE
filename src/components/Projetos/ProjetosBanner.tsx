@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 interface ProjetosBannerProps {
@@ -14,7 +15,7 @@ export default function ProjetosBanner({ image, alt, title, content, icons, href
         <div className="p-4">
             <div className="flex flex-col bg-gray-950 w-72 rounded-3xl p-4 gap-5 shadow-lg hover:shadow-2xl transition-shadow duration-300">
                 <div className="flex justify-center items-center p-4">
-                    <img src={image} alt={alt} className="max-h-28" />
+                    <Image src={image} alt={alt} className="max-h-28" />
                 </div>
 
                 <div className="flex flex-col justify-center items-center text-center font-bold text-2xl text-white">
@@ -37,7 +38,7 @@ export default function ProjetosBanner({ image, alt, title, content, icons, href
 
             <div className="flex justify-center items-center gap-4 p-4">
                 {icons.map((icon, index) => (
-                    <img key={index} className="h-6" src={icon} alt={`Icon ${index}`} />
+                    <Image key={index} className="h-6" src={icon} alt={`Icon ${index}`} />
                 ))}
             </div>
         </div>
