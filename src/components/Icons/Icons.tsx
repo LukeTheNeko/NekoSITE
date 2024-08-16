@@ -21,8 +21,10 @@ const Icon = ({ src, alt, delay }: { src: string, alt: string, delay: number }) 
             data-aos-delay={delay}
             className="group bg-white h-20 w-20 rounded-full flex justify-center items-center transition-transform duration-300 hover:scale-110 cursor-pointer"
         >
-            <div className="h-10 w-10">
+            <div>
                 <Image
+                    height={40}
+                    width={40}
                     src={src}
                     alt={alt}
                     className="filter grayscale transition-all duration-300 group-hover:filter-none"

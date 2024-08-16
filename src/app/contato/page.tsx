@@ -8,7 +8,7 @@ export default function Page() {
             <div className="bg-zinc-800">
                 <Header />
             </div>
-            <div className="h-screen flex flex-col justify-center items-center bg-zinc-800">
+            <div className="flex flex-col justify-center items-center bg-zinc-800">
                 <Contact />
             </div>
             <Footer />

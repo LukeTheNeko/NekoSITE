@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "LukeTheNeko - Portifolio",
   description: "Meu Portifolio :3",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/images/LukeNekoUwU/LukeTheNekoAudi.jpg",
   },
 };
 
@@ -22,9 +22,8 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={inter.className}>
-        <meta name="keywords" content="portifolio, dev, developer, js, ts, react"></meta>
+        <meta name="keywords" content="portifolio, dev, developer, js, ts, react, next"></meta>
         <meta name="google-adsense-account" content="ca-pub-2763973119875552"></meta>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="title" content="LukeTheNeko" />
 
