@@ -1,0 +1,7 @@
+{
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      ".env": ".env.development, .env.production, .env.test, .env.example",
+      "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, tsconfig.json, next.config.mjs, next-env.d.ts, .eslintrc.json, .gitignore, LICENSE, postcss.config.mjs, tailwind.config.ts",
+    },
+  }
