@@ -22,7 +22,19 @@ export default function Projetos() {
                         alt="Steam HourBoost"
                         href='https://github.com/LukeTheNeko/SteamHourBoost'
                         title={<><p>Steam</p> <p>HourBoost</p></>}
-                        content={<p>Bot para aumentar horas nos jogos da Steam.</p>}
+                        content={<p>BOT para aumentar horas nos jogos da Steam.</p>}
+                        icons={[
+                            "/images/icons/ts.svg",
+                            "/images/icons/node.svg",
+                        ]}
+                    />
+
+                    <ProjetosBanner
+                        image="/images/icons/nekodj.svg"
+                        alt="Neko Dj"
+                        href='https://github.com/LukeTheNeko/NekoDj'
+                        title={<><p>Neko</p><p>DjBOT</p></>}
+                        content={<p>BOT de música simples para para o Discord.</p>}
                         icons={[
                             "/images/icons/ts.svg",
                             "/images/icons/node.svg",
@@ -34,7 +46,7 @@ export default function Projetos() {
                         alt="Neko Maintenance"
                         href='https://github.com/LukeTheNeko/NekoMaintenance'
                         title={<><p>Neko</p> <p>Maintenance</p></>}
-                        content={<p>Minecraft Plugin em Kotlin que ativa ou desativa o modo de manuntenção no servidor..</p>}
+                        content={<p>Minecraft Plugin que ativa ou desativa manuntenção do servidor.</p>}
                         icons={[
                             "/images/icons/kotlin.svg",
                         ]}
@@ -45,7 +57,7 @@ export default function Projetos() {
                         alt="Tweet RandomWord"
                         href='https://github.com/LukeTheNeko/TweetRandomWord'
                         title={<><p>Tweet</p> <p>RandomWord</p></>}
-                        content={<p>Bot para Tweets de palavras aleatórias a cada 30 minutos.</p>}
+                        content={<p>BOT para Tweets de palavras aleatórias a cada 30 minutos.</p>}
                         icons={[
                             "/images/icons/js.svg",
                             "/images/icons/node.svg",
@@ -57,7 +69,7 @@ export default function Projetos() {
                         alt="Discord BOT"
                         href='https://github.com/LukeTheNeko/KazeBOT'
                         title={<><p>Kaze</p> <p>BOT</p></>}
-                        content={<p>Discord Bot simples com banco de dados.</p>}
+                        content={<p>Discord BOT simples com banco de dados.</p>}
                         icons={[
                             "/images/icons/ts.svg",
                             "/images/icons/node.svg",
