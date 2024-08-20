@@ -6,6 +6,20 @@ export default function Projetos() {
             <div className="flex justify-center items-center">
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
                     <ProjetosBanner
+                        image="/images/icons/cloud.svg"
+                        alt="Neko Cloud"
+                        href='https://github.com/LukeTheNeko/NekoCloud'
+                        title={<><p>Neko</p> <p>Cloud</p></>}
+                        content={<p>NekoCloud uma Landing page de hospedagem para Minecraft.</p>}
+                        icons={[
+                            "/images/icons/ts.svg",
+                            "/images/icons/react.svg",
+                            "/images/icons/nextjs.svg",
+                            "/images/icons/tailwind.svg",
+                        ]}
+                    />
+
+                    <ProjetosBanner
                         image="/images/icons/logoglad.webp"
                         alt="BOT GladMC"
                         href='https://github.com/LukeTheNeko/GladFarm'

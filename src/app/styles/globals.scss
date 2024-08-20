@@ -6,6 +6,27 @@
   scroll-margin-top: 0.8em;
 }
 
+.navbar-item {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.navbar-item::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;  
+  bottom: -5px;
+  left: 50%;
+  background-color: #0ea5e9;
+  transition: all 0.3s ease;
+}
+
+.navbar-item:hover::after {
+  width: 100%;
+  left: 0;
+}
+
 body::-webkit-scrollbar {
   width: 8px;
 }
