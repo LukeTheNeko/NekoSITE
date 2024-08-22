@@ -5,13 +5,13 @@ import Header from "@/components/Header/Header";
 export default function Page() {
     return (
         <>
-            <div className="bg-zinc-800">
+            <div className="flex flex-col min-h-screen bg-zinc-800">
                 <Header />
+                <div className="flex-grow">
+                    <Contact />
+                </div>
+                <Footer />
             </div>
-            <div className="flex flex-col justify-center items-center bg-zinc-800">
-                <Contact />
-            </div>
-            <Footer />
         </>
-    )
+    );
 }

@@ -106,9 +106,9 @@ export default function Header() {
                                         <FaHome color="#fff" size={18} />
                                         Home
                                     </a>
-                                    <a href="/GitHub" className="text-white flex items-center gap-2 hover:text-blue-400">
+                                    <a href="/projetos" className="text-white flex items-center gap-2 hover:text-blue-400">
                                         <FaCode color="#fff" size={18} />
-                                        GitHub
+                                        Projetos
                                     </a>
                                     <a href="https://github.com/LukeTheNeko" target="blank" className="text-white flex items-center gap-2 hover:text-blue-400">
                                         <FaGithub color="#fff" size={18} />
